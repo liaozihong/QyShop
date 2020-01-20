@@ -1,0 +1,8 @@
+dependencies {
+    compile 'com.dashuai.commons:java-commons-client:1.0.0'
+    compile project(':shop-comment')
+    compile project(':shop-dao')
+    compile project(':shop-model')
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.12.1'
+}
+

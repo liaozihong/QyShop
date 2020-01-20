@@ -1,0 +1,6 @@
+dependencies {
+    compile 'com.baomidou:mybatis-plus-boot-starter:3.3.0'
+    compile 'com.baomidou:mybatis-plus-generator:3.3.0'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.46'
+}
+

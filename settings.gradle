@@ -1,0 +1,9 @@
+rootProject.name = 'shop'
+
+include('shop-api')
+include('shop-comment')
+include('shop-consumer')
+include('shop-dao')
+include('shop-model')
+include('shop-outer')
+include('shop-service')

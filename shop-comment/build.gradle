@@ -1,0 +1,10 @@
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.10.1'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.10.1'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.10.1'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1'
+    compile 'ma.glasnost.orika:orika-core:1.5.2'
+    compile 'com.dashuai.commons:java-commons-redis:1.0.0'
+}
+
