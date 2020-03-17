@@ -1,4 +1,4 @@
-package com.zoey.goods.model;
+package com.zoey.goods.model.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

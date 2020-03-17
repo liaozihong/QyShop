@@ -19,6 +19,21 @@ public class GlobalConsts {
      */
     public final static int UNKNOW_FAILURE_CODE = 90500;
 
+    /**
+     * 登录成功后添加的cookie 名字
+     */
+    public final static String LOGIN_COOKIE_KEY = "qyshop";
+
+    /**
+     * cookie 设置的域名
+     */
+    public final static String DOMAIN = "localhost";
+
+    /**
+     * cookie 设置的域名 , 单位 s
+     */
+    public final static int LOGIN_COOKIE_TIMEOUT = 7200;
+
     public interface Number {
         int THOUSAND_INT = 1000;
         int HUNDRED_INT = 100;

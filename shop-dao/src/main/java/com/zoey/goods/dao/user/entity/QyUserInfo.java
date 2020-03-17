@@ -1,6 +1,8 @@
-package com.zoey.goods.dao.order.entity;
+package com.zoey.goods.dao.user.entity;
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -11,17 +13,17 @@ import java.time.LocalDateTime;
 
 /**
  * <p>
- *
+ * 用户表
  * </p>
  *
  * @author zoey
- * @since 2019-12-25
+ * @since 2020-03-05
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("qy_user_info")
-public class UserInfo implements Serializable {
+public class QyUserInfo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -42,9 +44,9 @@ public class UserInfo implements Serializable {
     private String userPassword;
 
     /**
-     * 性别
+     * 性别,0男，1女
      */
-    private String sex;
+    private Integer sex;
 
     /**
      * 出生年月
@@ -59,7 +61,11 @@ public class UserInfo implements Serializable {
     /**
      * 手机号
      */
-    private Integer phone;
+    private String phone;
+    /**
+     * 身份证号
+     */
+    private String identityCard;
 
     /**
      * QQ号
@@ -72,15 +78,18 @@ public class UserInfo implements Serializable {
     private String wechatNum;
 
     /**
+     * 支付宝账号
+     */
+    private String zfbNum;
+
+    /**
      * 创建时间
      */
-    @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createAt;
 
     /**
      * 修改时间
      */
-    @TableField(fill = FieldFill.UPDATE)
     private LocalDateTime updateAt;
 
 

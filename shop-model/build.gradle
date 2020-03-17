@@ -1,4 +1,5 @@
 dependencies {
     compile 'org.apache.rocketmq:rocketmq-client:4.3.0'
+    compile group: 'org.hibernate', name: 'hibernate-validator', version: '5.0.2.Final'
 }
 

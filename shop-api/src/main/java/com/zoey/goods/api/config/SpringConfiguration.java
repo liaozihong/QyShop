@@ -76,4 +76,5 @@ public class SpringConfiguration {
     public IAreasService areasService() {
         return new AreasServiceImpl();
     }
+
 }
